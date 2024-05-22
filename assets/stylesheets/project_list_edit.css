@@ -1,0 +1,409 @@
+.controller-projects.action-index .edit-issue {
+    cursor: pointer;
+    position: absolute;
+    margin-left: 2px !important;
+}
+.controller-projects.action-index textarea.resizable {
+    width: 600px;
+    height: 50px;
+    max-width: 700px;
+    max-height: 100px;  
+}
+
+.controller-projects.action-index td.short_description {
+    min-width: 600px;
+    max-width: 600px;
+    text-align: left !important;
+}
+
+.controller-projects.action-index td {
+    position: relative !important;
+    padding-right: 20px !important;
+}
+
+.controller-projects.action-index table.list td {
+    text-align: center;
+}
+
+.controller-projects.action-index .link {
+    padding: 0rem 1.5rem !important;
+}
+
+.controller-projects.action-index a.project span.div_text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 83%;
+}
+
+.controller-projects.action-index .string span.div_text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 30%;
+}
+
+
+.controller-projects.action-index .link span.div_text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 30%;
+}
+
+.controller-projects.action-index .float span.div_text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 30%;
+}
+
+.controller-projects.action-index .int span.div_text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 30%;
+}
+
+.controller-projects.action-index .list span.div_text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 30%;
+}
+
+.controller-projects.action-index .user span.div_text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 30%;
+}
+
+.controller-projects.action-index .version span.div_text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 30%;
+}
+
+.controller-projects.action-index .bool span.div_text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 30%;
+}
+
+.controller-projects.action-index .text span.div_text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 30%;
+}
+
+/* span.div_text {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.string,
+.link,
+.list,
+.user,
+.version {
+    width: 90%;
+} */
+
+
+
+/* .controller-projects.action-index a.project.root.leaf.public {
+    width: 100%;
+} */
+
+/* .controller-projects.action-index .custom-details div {
+    
+} */
+
+div.custom-details > div:not(.issues-info):not(.project-members) {
+    width: 170px;
+}
+
+/* CSS for the tooltip */
+.int[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.string[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.date[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.float[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.bool[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.link[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.list[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.user[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.version[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.file[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.key[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.text[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.attachment[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.enumeration[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+/* media query for desktop */
+@media only screen and (min-width: 1557px) {
+
+    .controller-projects.action-index .string span.div_text,
+    .controller-projects.action-index .link span.div_text,
+    .controller-projects.action-index .float span.div_text,
+    .controller-projects.action-index .int span.div_text,
+    .controller-projects.action-index .int span.div_text,
+    .controller-projects.action-index .list span.div_text,
+    .controller-projects.action-index .user span.div_text,
+    .controller-projects.action-index .version span.div_text,
+    .controller-projects.action-index .bool span.div_text,
+    .controller-projects.action-index .text span.div_text {
+        max-width: 9rem;
+    }
+}
+
+@media only screen and (min-width: 1241px) and (max-width: 1556px) {
+
+    .controller-projects.action-index .string span.div_text,
+    .controller-projects.action-index .link span.div_text,
+    .controller-projects.action-index .float span.div_text,
+    .controller-projects.action-index .int span.div_text,
+    .controller-projects.action-index .int span.div_text,
+    .controller-projects.action-index .list span.div_text,
+    .controller-projects.action-index .user span.div_text,
+    .controller-projects.action-index .version span.div_text,
+    .controller-projects.action-index .bool span.div_text,
+    .controller-projects.action-index .text span.div_text {
+        max-width: 11rem;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1240px) {
+
+    .controller-projects.action-index .string span.div_text,
+    .controller-projects.action-index .link span.div_text,
+    .controller-projects.action-index .float span.div_text,
+    .controller-projects.action-index .int span.div_text,
+    .controller-projects.action-index .int span.div_text,
+    .controller-projects.action-index .list span.div_text,
+    .controller-projects.action-index .user span.div_text,
+    .controller-projects.action-index .version span.div_text,
+    .controller-projects.action-index .bool span.div_text,
+    .controller-projects.action-index .text span.div_text {
+        max-width: 10rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+
+    .controller-projects.action-index .string span.div_text,
+    .controller-projects.action-index .link span.div_text,
+    .controller-projects.action-index .float span.div_text,
+    .controller-projects.action-index .int span.div_text,
+    .controller-projects.action-index .int span.div_text,
+    .controller-projects.action-index .list span.div_text,
+    .controller-projects.action-index .user span.div_text,
+    .controller-projects.action-index .version span.div_text,
+    .controller-projects.action-index .bool span.div_text,
+    .controller-projects.action-index .text span.div_text {
+        max-width: 9rem;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 767px) {
+
+    .controller-projects.action-index .string span.div_text,
+    .controller-projects.action-index .link span.div_text,
+    .controller-projects.action-index .float span.div_text,
+    .controller-projects.action-index .int span.div_text,
+    .controller-projects.action-index .int span.div_text,
+    .controller-projects.action-index .list span.div_text,
+    .controller-projects.action-index .user span.div_text,
+    .controller-projects.action-index .version span.div_text,
+    .controller-projects.action-index .bool span.div_text,
+    .controller-projects.action-index .text span.div_text {
+        max-width: 10rem;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 449px) {
+
+    .controller-projects.action-index .string span.div_text,
+    .controller-projects.action-index .link span.div_text,
+    .controller-projects.action-index .float span.div_text,
+    .controller-projects.action-index .int span.div_text,
+    .controller-projects.action-index .int span.div_text,
+    .controller-projects.action-index .list span.div_text,
+    .controller-projects.action-index .user span.div_text,
+    .controller-projects.action-index .version span.div_text,
+    .controller-projects.action-index .bool span.div_text,
+    .controller-projects.action-index .text span.div_text {
+        max-width: 7rem;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+
+    .controller-projects.action-index .string span.div_text,
+    .controller-projects.action-index .link span.div_text,
+    .controller-projects.action-index .float span.div_text,
+    .controller-projects.action-index .int span.div_text,
+    .controller-projects.action-index .int span.div_text,
+    .controller-projects.action-index .list span.div_text,
+    .controller-projects.action-index .user span.div_text,
+    .controller-projects.action-index .version span.div_text,
+    .controller-projects.action-index .bool span.div_text,
+    .controller-projects.action-index .text span.div_text {
+        max-width: 14rem;
+    }
+}
+

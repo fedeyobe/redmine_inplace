@@ -1,3 +1,123 @@
 = inplace_issue_editor
 
 Description goes here
+
+
+https://www.redmineflux.com/knowledge-base/plugins/inline-editor-plugin/
+
+
+INLINE EDITOR PLUGIN
+Table of Contents
+Introduction
+Version Compatibility
+Installation
+Configuration
+How To
+How to Edit Issue Table
+How to Update the task
+How to Edit issue Description
+Troubleshooting
+Frequently Asked Questions (FAQs)
+Uninstallation of Plugin 
+Updates and Revisions
+Conclusion 
+Introduction
+The Redmineflux Inline Editor Plugin is a powerful tool. This plugin enhances the user experience by providing an inline editing feature for various fields within Redmine, allowing users to edit and update information directly on the page without the need for page reloads or additional forms.
+
+Key features of the Redmine Inline Editor Plugin include
+
+Inline editing of issue fields such as subject, description, status, priority, and more.
+Support for custom fields and additional plugins that extend Redmine’s functionality.
+Real-time updates without page reloads, improving productivity and reducing user frustration.
+Version Compatibility
+Redmine Versions
+
+4.0.x, 4.1.x, 4.2.x
+5.0.x
+6.0.x(coming soon)
+Installation
+To install Redmineflux Inline Editor Plugin follow these steps
+
+Make sure you have a working installation of Redmine.
+Download the Inline Editor Plugin from the redmineflux.com website. The plugin typically comes in the form of a ZIP file
+Extract the Inline Editor Plugin zip file to Redmine’s plugins directory (/path/to/redmine/plugins) and do not change the plugin folder name.
+Run the following command to install the required dependencies
+Bundle install 
+Run migrate command for database migration  
+-> In Production 
+RAILS_ENV=Production bundle exec rails redmine:plugins:migrate 
+–> In Development
+    RAILS_ENV=Development bundle exec rails redmine:plugins:migrate 
+Restart Redmine server to load the plugin 
+Rails s
+Configuration
+Log in to Redmine as an administrator or user.
+Navigate to the header tabs and click on the “Issues” tab.
+Hover over the issue table, specifically over a row or column.
+While hovering, you will see a pencil icon. Click on the icon.
+Edit or select the desired content in the fields without reloading the page.
+The changes you make will be updated in real-time without requiring a page reload.
+How To
+How to Edit Issue Table
+Navigate to the issue tab.
+Locate the issue table on the page.
+Hover over the rows or columns in the table to highlight them.
+Click on the specific field you want to edit or select the content you wish to modify.
+While selecting the content, the field will update dynamically without requiring a page reload.
+Utilize the inline editor to make changes to issue table fields such as subject, description, status, priority, and more.
+
+
+How to Update the task
+Navigate to the “Issues” tab.
+Go to the issue table and click on a specific ticket number to navigate to the “Show issues” page.
+Click on the fields and edit them.
+After selecting a value, the fields are updated without the need to reload the page.
+The inline editor allows you to edit fields such as status, priority, assignee, start date, end date, percentage, and other custom fields.
+
+
+How to Edit issue Description
+Navigate to the “Issues” tab.
+Go to the issue table and locate the ticket number you wish to view. Click on the ticket number to navigate to the show issue’s page.
+On the show issue page, find the description field and locate the edit icon on the right side of the field.
+Click on the edit icon to enable editing mode for the description.
+Edit the content of the description as desired.
+In the description field toolbar, located at the top of the editor, you will find various tools to format the content. These tools allow you to apply formatting options such as heading styles, bullet points, font styles, quotes, and more.
+Utilize the toolbar options to format the content of the description according to your preferences and for better visualization.
+
+
+
+
+Troubleshooting
+Check plugin compatibility: Ensure that the plugin version is compatible with your Redmine installation. Refer to the plugin documentation ,redmineflux.com website, or the official Redmine plugins repository for compatibility information.
+
+Clear cache: If you made any changes to the plugin or Redmine configuration, clear the Redmine cache and restart the application.
+
+Check for conflicts: Disable any other plugins that modify the same fields or interfere with the inline editing feature. Test if the issue persists without those plugins.
+
+Frequently Asked Questions (FAQs)
+Q: Which fields can be edited inline with the Redmineflux Inline Editor Plugin?
+A: The Redmineflux Inline Editor Plugin supports inline editing of various fields such as subject, description, status, priority, and custom fields. The availability of inline editing depends on the Redmine configuration and the specific fields exposed by the plugin.
+
+Q: I’m experiencing issues with the Redmine Inline Editor Plugin. What should I do?
+A: If you encounter any issues with the Redmine Inline Editor Plugin, follow these steps
+
+Check plugin compatibility with your Redmine version.
+Clear the Redmine cache and restart the application.
+Disable any conflicting plugins and test for the issue.
+Q: Is the Inline Editor plugin compatible with multiple web browsers and operating systems?
+A: Yes, the Inline Editor Plugin is compatible with multiple web browsers and operating systems, making it accessible and convenient for users.
+
+Uninstallation of Plugin 
+To uninstall the Redmineflux Inline Editor Plugin, follow these steps
+
+Go to the Inline Editor Plugin directory in Redmine. 
+Delete the entire Inline Editor Plugin directory from Redmine/plugins directory. This step removes the plugin files from your Redmine installation. 
+If the plugin required a migration, run the following command to downgrade your database (make a db backup before): 
+Bundle exec rake redmine:plugins:migrate Name=plugin name VERSION=0 RAILS_ENV=production 
+Restart the Redmine server to see the changes. 
+This will uninstall the Redmineflux Inline Editor Plugin from Redmine.
+Updates and Revisions
+Plugin Updates: Keep track of plugin updates and new releases. Visit the official plugin website, plugin repository, Plugin updates may include bug fixes, performance improvements, or new features related to tag management.
+Documentation Revisions: Regularly review the plugin’s official documentation or redmineflux.com website for any revisions or updates. Documentation may be revised to reflect changes in the plugin’s functionality, configuration options, or integration with the latest versions of Redmine.
+Conclusion 
+The Redmineflux Inline Editor Plugin is a valuable extension for Redmine, providing users with the ability to edit various fields directly on the page without the need for page reloads.
